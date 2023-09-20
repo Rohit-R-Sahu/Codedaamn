@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: auto;
+  width: 640px;
+  margin: auto;
+  border: 0.2px solid rgb(211, 211, 211);
+  font-family: "Cabin";
+}
+
+.header {
+  height: 2.3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.main {
+  max-height: 512px;
+  max-width: 640px;
+}
+.main img {
+  height: 100%;
+  width: 100%;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.toolbar .actions i {
+  padding: 0 0.3rem;
+}
+
+.description {
+  padding: 10px;
+}
