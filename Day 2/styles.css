@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+	font-family: "Inter";
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    background : #f4f4f5;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-grey{
+    color: #71717a;
+}
+
+.flex-container {
+    max-width : 26rem;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    display : flex;
+}
+
+
+.pg-icon{
+    width: auto;
+    margin : 10px;
+}
+.pg-icon i{
+    font-size : 5rem;
+}
+
+.pg-detail{
+    margin: 10px;
+    width: auto;
+}
+.pg-detail >div{
+    padding: 0.2rem;
+}
+.pg-title{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.pg-collab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlap{
+    margin: -7px;
+}
